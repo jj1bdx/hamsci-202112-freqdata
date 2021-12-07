@@ -4,10 +4,10 @@ library(tidyverse)
 library(lubridate)
 # Read base data
 freqdata=read.table("jj1bdx-eclipse-202112-freq.txt", header=TRUE)
-ppsdata=read.table("jj1bdx-eclipse-202112-pps.txt", header=TRUE)
+ampldata=read.table("jj1bdx-eclipse-202112-ampl.txt", header=TRUE)
 # Make interpolation functions for the base data
 freqfun = stats::approxfun(freqdata$Time, freqdata$Freq)
-levelfun = stats::approxfun(ppsdata$Time, ppsdata$Level)
+levelfun = stats::approxfun(ampldata$Time, ampldata$Level)
 # UNIX Time:
 # 1-DEC-2021 0000UTC -> TZ=UTC date -j 1201000021 "+%s" -> 1638316800
 # 6-DEC-2021 0000UTC -> TZ=UTC date -j 1206000021 "+%s" -> 1638748800
