@@ -1,6 +1,6 @@
 genpng <- function(datestring) {
   basetime=as.numeric(as_datetime(datestring))
-  freqoffset=1000.83
+  freqoffset=1000.0
   #
   png(paste("./graph-", datestring, ".png", sep=""), width=1024, height=768)
   #
@@ -22,9 +22,9 @@ genpng <- function(datestring) {
   dev.off()
 }
 
-genpng("20210607")
-genpng("20210608")
-genpng("20210609")
-genpng("20210610")
-genpng("20210611")
-genpng("20210612")
+genpng("20211201")
+genpng("20211202")
+genpng("20211203")
+genpng("20211204")
+genpng("20211205")
+genpng("20211206")
