@@ -1,0 +1,59 @@
+Python 3.9.9 (main, Nov 21 2021, 03:23:42)
+[Clang 13.0.0 (clang-1300.0.29.3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import datetime.datetime as datetime
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'datetime.datetime'; 'datetime' is not a package
+>>> from datetime import datetime
+>>> datetime.timestamp(datetime.fromisoformat('2021-11-11'))
+1636556400.0
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-01'))
+1638284400.0
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-01+00:00'))
+1638284400.0
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-01T00:00:00+00:00'))
+1638316800.0
+>>> datetime.timestamp(datetime.fromisoformat('2021-11-29 23:59:58.742892+00:00'))
+1638230398.742892
+>>> datetime.timestamp(datetime.fromisoformat('2021-11-30 23:59:57.857131+00:00'))
+1638316797.857131
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-01 23:59:56.974783+00:00'))
+1638403196.974783
+>>> datetime.timestamp(datetime.fromisoformat('2022-12-02 23:59:56.081180967+00:00'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: Invalid isoformat string: '2022-12-02 23:59:56.081180967+00:00'
+>>> datetime.timestamp(datetime.fromisoformat('2022-12-02 23:59:56.081180+00:00'))
+1670025596.08118
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-03 23:59:55.187612+00:00'))
+1638575995.187612
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-04 23:59:54.296926+00:00'))
+1638662394.296926
+>>> datetime.timestamp(datetime.fromisoformat('2021-12-05 23:59:53.406011+00:00'))
+1638748793.406011
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> quit()
+kenji@bigmac[1013]% calc
+C-style arbitrary precision calculator (version 2.13.0.1)
+Calc is open software. For license details type:  help copyright
+[Type "exit" to exit, or "help" for help.]
+
+; define diffppm(s, d) = -((s-d)/86400)*1e6
+diffppm(s,d) defined
+; diffppm(58.742892946, 57.850891639)
+	~-10.32408920138888888889
+; diffppm(57.857131107, 56.968365272)
+	~-10.28664160879629629630
+; diffppm(56.974783175, 56.077469107)
+	~-10.38557949074074074074
+; diffppm(56.081180967, 55.182691607)
+	~-10.39918240740740740741
+; diffppm(55.187612274, 54.291354032)
+	~-10.37335928240740740741
+; diffppm(54.296926304, 53.400267481)
+	~-10.37799563657407407407
+; diffppm(53.406011783, 52.506326274)
+	~-10.41302672453703703704
+; quit
