@@ -12,7 +12,7 @@ levelfun = stats::approxfun(ampldata$Time, ampldata$Level)
 # 1-DEC-2021 0000UTC -> TZ=UTC date -j 1201000021 "+%s" -> 1638316800
 # 7-DEC-2021 0000UTC -> TZ=UTC date -j 1206000021 "+%s" -> 1638835200
 # 11-DEC-2021 0000UTC -> TZ=UTC date -j 1211000021 "+%s" -> 1639180800
-starttime=1638316800
+starttime=1638316740
 endtime=1638835190
 timepair=c(starttime:endtime)
 # Smoothing for 20 seconds
