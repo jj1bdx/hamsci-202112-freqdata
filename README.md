@@ -24,6 +24,7 @@ See also [grape-1-testing-log.md](grape-1-testing-log.md) for the configuration 
 
 ## Files in this repository
 
+* add-wavefile-tags/: templates and scripts for adding WAV file tags using [taglib](https://github.com/taglib/taglib)
 * aggregated-values/: merged data of from the measured-values/ directory files, and the calculation/estimation/visualization R code
 * graphs/: summary graphs by date
 * measured-values/: measured data by analyzing the recorded WAV files
