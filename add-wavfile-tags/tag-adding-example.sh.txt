@@ -1,0 +1,8 @@
+cp hamsci-202112-recording/RAW_JJ1BDX_Z__2021-11-28_23-59-59.wav \
+   JJ1BDX_Z_9999kHz__2021-11-28_23-59-59.wav
+./add-tag-template.sh JJ1BDX_Z_9999kHz__2021-11-28_23-59-59.wav
+tagreader JJ1BDX_Z_9999kHz__2021-11-28_23-59-59.wav
+# Determine date by referring to the timing log
+tagwriter -R "TITLE" "JJ1BDX_Z_9999kHz__2021-11-28_23-59-59" JJ1BDX_Z_9999kHz__2021-11-28_23-59-59.wav
+tagwriter -R "COMMENT" "Enter starting/ending time of recording here"
+tagreader JJ1BDX_Z_9999kHz__2021-11-28_23-59-59.wav
