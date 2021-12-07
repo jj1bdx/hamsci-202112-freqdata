@@ -8,6 +8,8 @@ This repository contains [HamSCI December 2021 Eclipse Festival of Frequency Mea
 
 ## Measurement equipments
 
+See also [grape-1-testing-log.md](grape-1-testing-log.md) for the configuration details.
+
 * Antenna: 1m-length 30m-band whip at 8m height above the ground
 * Receiver: HamSCI Grape 1 with Leo Bodnar mini GPSDO 
 * Sound interface: Sabrent audio interface
