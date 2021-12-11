@@ -2,6 +2,10 @@
 
 This repository contains [HamSCI December 2021 Eclipse Festival of Frequency Measurement](https://hamsci.org/december-2021-eclipse-festival-frequency-measurement) result from my home station JJ1BDX in Setagaya City, Tokyo, Japan at Grid Locator PM95tp.
 
+## How to recreate the measured data
+
+Read measurement-code/README.md first.
+
 ## Measurement date and time
 
 1-DEC-2021 0000UTC - 10-DEC-2021 2359UTC
