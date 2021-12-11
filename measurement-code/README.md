@@ -9,3 +9,4 @@
   - *-ampl.txt: amplitude in dB
   - *-freq.txt: frequency in Hz
 * Copy the result files to ../measured-values/
+* See ../aggregated-values/README.md for the further computation with R
