@@ -54,6 +54,9 @@ Simple mixer control 'Auto Gain Control',0
   Mono: Playback [off]
 ```
 
+Alsamixer setting screen:
+
+![](alsamixer-settings.jpg)
 
 ### fldigi settings
 
