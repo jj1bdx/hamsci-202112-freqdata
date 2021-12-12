@@ -6,6 +6,7 @@ This repository contains [HamSCI December 2021 Eclipse Festival of Frequency Mea
 
 * Read [measurement-code/README.md](measurement-code/README.md) first
 * Then follow [aggregated-values/README.md](aggregated-values/README.md)
+* See [Zenodo archive](https://doi.org/10.5281/zenodo.5774479) (doi: 10.5281/zenodo.5774479) for the raw audio data
 
 ## Measurement date and time
 
