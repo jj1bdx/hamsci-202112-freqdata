@@ -21,6 +21,7 @@ See also [grape-1-testing-log.md](grape-1-testing-log.md) for the configuration 
 * Sound interface: Sabrent audio interface
 * Recorded on: running on Ubuntu 20.04.3 x86\_64 (Intel NUC DN2820FYKH with Intel Celeron N2820)
 * Recorded 8kHz-rate WAV files at 9999kHz DSB (both USB and LSB merged)
+* See [jj1bdx/dcrx-10MHz-design](https://github.com/jj1bdx/dcrx-10MHz-design/) for the further reference.
 
 ## Measured data
 
