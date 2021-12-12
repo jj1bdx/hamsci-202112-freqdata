@@ -19,3 +19,9 @@ source("./dateplot.R")
 source("./pswsdata.R")
 ```
 
+## What the analysis software does
+
+* Smooth the data by 20-second averaging
+* Build the functions by the measured data of frequency and amplitude so that the estimated values by interpolation can be obtained for a given timing in UNIX/POSIX epoch
+* dateplot.R: plot the data on a PNG file
+* pswsdata.R: output the fldigi-and-PSWS-compatible *estimated* data so that the processing scripts for fldigi and PSWS data can be applied later
